@@ -12,3 +12,10 @@ from vllm.distributed.kv_transfer.kv_connector.v1.base import SupportsHMA
 from lmcache.integration.vllm.lmcache_mp_connector import LMCacheMPConnector
 
 print(issubclass(LMCacheMPConnector, SupportsHMA))
+
+python - <<'PY'
+from vllm.distributed.kv_transfer.kv_connector.v1.base import SupportsHMA
+from lmcache.integration.vllm.lmcache_mp_connector import LMCacheMPConnector
+
+print("Supports HMA:", issubclass(LMCacheMPConnector, SupportsHMA))
+PY
