@@ -33,7 +33,8 @@ int main(){
 }
 
 // git config --global user.name "你的名字"
-// git config --global user.email "你的邮箱"
+// git config --global user.email "你的邮箱"hh
+
 // <algorithm> 里常见：
 // sort(v.begin(), v.end());          // 排序
 // reverse(v.begin(), v.end());       // 反转
