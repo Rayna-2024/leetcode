@@ -4,3 +4,6 @@ from lmcache_ascend.integration.vllm.lmcache_ascend_connector_v1 import LMCacheA
 
 print(issubclass(LMCacheAscendConnectorV1Dynamic, SupportsHMA))
 PY
+
+Qwen3.8-27B 属于Hybrid 模型，但我使用的 LMCacheAscendConnector 不支持 Hybrid KV Cache Manager（HMA），导致 vLLM 无法完成 KV Cache 的初始化。
+Hybrid 模型
